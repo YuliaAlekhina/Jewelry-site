@@ -1,0 +1,89 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+        meta(rel="icon" href="../Favicon.png" type="image/x-icon")
+        meta(rel='icon' type='image/x-icon' href='Favicon.png')
+
+
+        title MYEL
+        link(rel="icon" href="./Favicon.png" type="image/x-icon")
+        style
+            include styles/smartbasket.min.css
+            include styles/owl.carousel.min.css
+            include styles/owl.theme.default.min.css
+            include styles/style.css
+
+
+
+    body
+        div.wrapper
+            include modules/header
+            section.about.container
+                h2.about__title.title__all О БРЕНДЕ
+                .about__info
+                    .about__info_image 
+                        img(src="../img/about/fon.jpg", alt="Фон")
+                    .about__info_item
+                        p.about__info_text Everyday practice shows that the implementation of the planned targets is an interesting experiment to test further development directions. Similarly, the further development of various forms of activity requires the definition and refinement of new proposals.
+                        div.about__button
+                            a(href="catalog.html").button__about Перейти в каталог
+                            div.about__arrow
+                                <svg width="51" height="12" viewBox="0 0 51 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M50.4908 6.57613C51.1697 6.25794 51.1697 5.74205 50.4908 5.42387L39.4261 0.238643C38.7472 -0.0795475 37.6464 -0.0795475 36.9674 0.238643C36.2882 0.556834 36.2882 1.07272 36.9674 1.39092L46.8026 6L36.9674 10.6091C36.2882 10.9273 36.2882 11.4432 36.9674 11.7614C37.6464 12.0795 38.7472 12.0795 39.4261 11.7614L50.4908 6.57613ZM0 6.81478H49.2613V5.18522H0V6.81478Z" fill="black"/>
+                                </svg>
+            section.delivery.container
+                h2.about__title.title__all ДОСТАВКА И ОПЛАТА
+                p.delivery__text Everyday practice shows that the implementation of the planned targets is an interesting experiment to test further development directions. Similarly, the further development of various forms of activity requires the definition and refinement of new proposals.
+                div.delivery__courier
+                    h4.courier__title Курьерская доставка
+                    p.courier__text.text_first Similarly, the further development of various forms of activity requires the definition.
+                    p.courier__text.text_second Thus, the further development of various forms of activity require
+                    div.courier__image.image_first
+                        img(src="../img/delivery/1.jpg", alt="")
+
+
+                div.delivery__express
+                    h4.courier__title Экспресс-доставка
+                    p.courier__text.text_first Similarly, the further development of various forms of activity requires the definition.
+                    p.courier__text.text_second Thus, the further development of various forms of activity require
+                    div.express__image.image_first
+                        img(src="../img/delivery/2.jpg", alt="")
+
+
+
+
+
+
+                div.smart-basket__wrapper
+            section.question.container
+                h2.about__title.title__all FAQ
+                div.question__body
+                    .question__block.block-first
+                        h4.block-question__title Как сделать заказ?
+                        p.block-question__text Being just part of the big picture, the direct participants in technological progress call us to new achievements.
+                    .question__block.block-second
+                        h4.block-question__title Как зарегистрироваться?
+                        p.block-question__text And there is no doubt that the clear signs of the victory of institutionalization call us to new achievements, which, in turn, should be indicated as contenders for the role of key factors.
+                        
+                    .question__block.block-third
+                        h4.block-question__title Как оформить обмен или возврат?
+                        p.block-question__text It is a pleasure, citizens, to see how certain features of domestic politics can be called to account.
+
+
+
+            include modules/Registration
+            include modules/footer
+
+
+
+
+
+
+        script(src="../js/jquery-3.6.0.min.js")
+        script(src="../smartbasket/js/smartbasket.min.js")
+        script(src="../js/owl.carousel.min.js")
+        script(src="../js/main.js")

@@ -1,0 +1,13 @@
+section.form
+    .form__container.container
+        .form__content
+            .form__title РЕГИСТРАЦИЯ
+            form(action="#").form__body
+                .form__body-input
+                    input(type="text" name="name" placeholder="Ваше имя" required).form__input.input-one
+                    input(type="email" name="email" placeholder="Ваш E-mail" required).form__input
+                .form__button
+                    button.form__btn Отправить данные
+                    .btn-text
+                        input(type="checkbox" name="" value="yes" class="checkbox")
+                        .form__btn-text Согласен на обработку персональных данных

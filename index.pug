@@ -1,0 +1,157 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+        meta(rel="icon" href="../Favicon.png" type="image/x-icon")
+
+        title MYEL
+
+        link(rel="icon" href="./Favicon.png" type="image/x-icon")
+        style
+            include styles/smartbasket.min.css
+            include styles/owl.carousel.min.css
+            include styles/owl.theme.default.min.css
+            include styles/style.css
+
+
+
+    body
+        div.wrapper
+            include modules/header
+                div.smart-basket__wrapper
+            section.home
+                div.home__photo-all
+                    div.home__photo-first.foto
+                        img(src="../img/photo-1.jpg", alt="Фото-1")
+                    div.home__photo-second.foto
+                        img(src="../img/photo-2.jpg", alt="Фото-2")
+                    div.home__photo-third.foto
+                        img(src="../img/photo-3.jpg", alt="Фото-3")
+            section.text.container
+                .text__info
+                    .text__title
+                        h3.info__title Everyday practice shows that the implementation of planning targets entails the process of using and implementing a development model.
+                        p.info__item Spontaneous, delicate, audacious, our jewels distinguish themselves with their elegance.
+                    .text__button
+                        a(href="catalog.html" ).button__catalog Перейти в каталог
+                        .button__arrow
+                            <svg width="51" height="12" viewBox="0 0 51 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M50.4908 6.57613C51.1697 6.25794 51.1697 5.74205 50.4908 5.42387L39.4261 0.238643C38.7472 -0.0795475 37.6464 -0.0795475 36.9674 0.238643C36.2882 0.556834 36.2882 1.07272 36.9674 1.39092L46.8026 6L36.9674 10.6091C36.2882 10.9273 36.2882 11.4432 36.9674 11.7614C37.6464 12.0795 38.7472 12.0795 39.4261 11.7614L50.4908 6.57613ZM0 6.81478H49.2613V5.18522H0V6.81478Z" fill="black"/>
+                            </svg>
+            section.jewelry.container
+                h2.jewelry__title.title__all ЮВЕЛИРНЫЕ УКРАШЕНИЯ
+                .jewelry__content
+                    .jewelry__content_item.item__first
+                        .jewelry__content_img.content__img 
+                            figure.effect-img
+                                img(src="../img/jewelry/jewelry-1.jpg", alt="")
+                                figcaption.effect-text
+                                    a(href="catalog.html").effect-button Перейти в каталог
+                            h4.jewelry__content_rings.content__title Кольца
+                            p.jewelry__content_price.content__price 5 500 ₽
+                    .jewelry__content_item.item__second
+                        .jewelry__content_img.content__img
+                            figure.effect-img
+                                img(src="../img/jewelry/jewelry-2.jpg", alt="")
+                                figcaption.effect-text
+                                    a(href="catalog.html").effect-button Перейти в каталог
+                            h4.jewelry__content_rings.content__title Серьги
+                            p.jewelry__content_price.content__price 4 800 ₽
+                    .jewelry__content_item.item__third
+                        .jewelry__content_img.content__img
+                            figure.effect-img
+                                img(src="../img/jewelry/jewelry-3.jpg", alt="")
+                                figcaption.effect-text
+                                    a(href="catalog.html#bracelet").effect-button Перейти в каталог
+                            h4.jewelry__content_rings.content__title Браслеты
+                            p.jewelry__content_price.content__price-3 6 900 ₽
+                    .jewelry__content_item.item__four
+                        .jewelry__content_img.content__img
+                            figure.effect-img
+                                img(src="../img/jewelry/jewelry-4.jpg", alt="")
+                                figcaption.effect-text
+                                    a(href="catalog.html#chain").effect-button Перейти в каталог
+                            h4.jewelry__content_rings.content__title Цепочки
+                            p.jewelry__content_price.content__price-4 3 700 ₽
+            section.jewelry__photo
+                .owl-carousel.owl-theme
+                    //-First slide
+                    .item
+                        .jewelry__photo-content.container
+                            .jewelry__photo-info
+                                h3.jewelry__photo-title.text-all It should not be forgotten, however, that the current structure of the organization is an interesting experiment.
+                                p.jewelry__photo-text Similarly, the implementation of the planned targets allows you to perform important.
+                            .jewelry__photo-foto
+                                img(src="../img/jewelry__photo/jewelry__photo-1.jpg", alt="").cont-photo.img-responsive
+
+                    //-Second slide
+                    .item
+                        .jewelry__photo-content.container
+                            .jewelry__photo-info
+                                h3.jewelry__photo-title When creating the generator, we used the well-known universal speech code. Text is randomly generated in paragraphs from two to ten sentences per paragraph
+                                p.jewelry__photo-text That allows you to make the text more attractive and lively for visual and auditory perception.
+                            .jewelry__photo-foto
+                                img(src="../img/jewelry__photo/jewelry__photo-2.jpg", alt="").cont-photo.img-responsive
+
+                    //-Third slide
+                    .item
+                        .jewelry__photo-content.container
+                            .jewelry__photo-info
+                                h3.jewelry__photo-title Unlike lorem ipsum, the text fish in Russian will fill any layout with an incomprehensible meaning and give a unique flavor of Soviet times.
+                                p.jewelry__photo-text Which causes some people bewilderment when trying to read the fish text.
+                            .jewelry__photo-foto
+                                img(src="../img/jewelry__photo/jewelry__photo-3.jpg", alt="").cont-photo.img-responsive
+            section.withlove.container
+                .withlove__info
+                    h2.withlove__title With love MYEL
+                    p.withlove__text.text-all Together, we can build a brighter tomorrow. We use ethical stones and the most eco-responsible raw material possible.
+            section.gold
+                .gold__image_first
+                    img(src="../img/gold/ring-1.jpg", alt="Кольца")
+                    p.image-first__text #WITHLOVEMYEL
+                .gold__image_second
+                    img(src="../img/gold/ring-2.jpg", alt="Кольца")
+                    h3.image-first__title.text-all Fairmined Gold: choose ethical gold
+
+
+                    .text__button.image-first__button
+                        a(href="catalog.html" ).button__catalog Перейти в каталог
+                        .image-first__arrow
+                            <svg width="51" height="12" viewBox="0 0 51 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M50.4908 6.57613C51.1697 6.25794 51.1697 5.74205 50.4908 5.42387L39.4261 0.238643C38.7472 -0.0795475 37.6464 -0.0795475 36.9674 0.238643C36.2882 0.556834 36.2882 1.07272 36.9674 1.39092L46.8026 6L36.9674 10.6091C36.2882 10.9273 36.2882 11.4432 36.9674 11.7614C37.6464 12.0795 38.7472 12.0795 39.4261 11.7614L50.4908 6.57613ZM0 6.81478H49.2613V5.18522H0V6.81478Z" fill="black"/>
+                            </svg>
+            section.new.container
+                h2.new__title.title__all НОВИНКИ
+                .new__image
+                    .new__image_first
+                        img(src="../img/new/new-1.jpg", alt="Новинка")
+                        p.new__image_first-text Our jewelry is designed and produced locally<br> in Montreal.
+
+                    .new__image_second
+                        img(src="../img/new/new-2.jpg", alt="Новинка")
+                        p.new__image_second-text We create high end jewelry,<br> designed to stand the test of time.
+                .text__button.new-image__button
+                        a(href="catalog.html" ).button__catalog Перейти в каталог
+                        .new__button__arrow
+                            <svg width="51" height="12" viewBox="0 0 51 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M50.4908 6.57613C51.1697 6.25794 51.1697 5.74205 50.4908 5.42387L39.4261 0.238643C38.7472 -0.0795475 37.6464 -0.0795475 36.9674 0.238643C36.2882 0.556834 36.2882 1.07272 36.9674 1.39092L46.8026 6L36.9674 10.6091C36.2882 10.9273 36.2882 11.4432 36.9674 11.7614C37.6464 12.0795 38.7472 12.0795 39.4261 11.7614L50.4908 6.57613ZM0 6.81478H49.2613V5.18522H0V6.81478Z" fill="black"/>
+                            </svg>
+            include modules/Registration
+            section.footer__fon.container
+                img(src="../img/footer-fon.jpg", alt="Фон")
+                .fon-text__all.container
+                    p.fon__text #WITHLOVEMYEL
+                    h3.fon__title Subscribe to <br>our newsletter.
+                    p.fon__item Receive exclusive news and special promo codes.
+            include modules/footer
+
+
+
+
+        script(src="../smartbasket/js/smartbasket.min.js")
+        script(src="../js/jquery-3.6.0.min.js")
+        script(src="../js/owl.carousel.min.js")
+        script(src="../js/main.js")
